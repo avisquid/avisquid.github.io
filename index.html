@@ -11,7 +11,7 @@
     <link rel="stylesheet" type="text/css" href="stylesheet.css">
 
     <style>
-      img.thumb {
+      img.thumb, video.thumb {
         width: 100%;
         aspect-ratio: 1 / 1;
         object-fit: cover;
@@ -33,7 +33,7 @@
                   Avi Narula
                 </p>
                 <p>
-                  I'm a junior at <a href="https://www.mit.edu/">MIT</a> studying electrical engineering (6-5) and mathematics (18) interested in robotics and autonomy. Currently, I work in the <a href="https://improbableai.com/">Improbable AI Lab</a> on humanoid athleticism advised by <a href="https://nolie-rolie.github.io/">Nolan Fey</a> and <a href="https://people.csail.mit.edu/pulkitag/">Pulkit Agrawal</a>. Outside of academics, I am on the varsity water polo team.
+                  I'm a junior at <a href="https://www.mit.edu/">MIT</a> studying electrical engineering (6-5) and mathematics (18) interested in robotics and autonomy. Currently, I work in the <a href="https://improbableai.com/">Improbable AI Lab</a> on humanoid athleticism advised by <a href="https://www.linkedin.com/in/johnmarangola">John Marangola</a>, <a href="https://nolie-rolie.github.io/">Nolan Fey</a>, and <a href="https://people.csail.mit.edu/pulkitag/">Pulkit Agrawal</a>. Outside of academics, I am on the varsity water polo team.
                 </p>
                 <p style="text-align:center">
                   <a href="mailto:avin@mit.edu">Email</a> &nbsp;/&nbsp;
@@ -56,6 +56,49 @@
           <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
               <tr>
               <td style="padding:16px;width:100%;vertical-align:middle">
+                <h2>Publications</h2>
+              </td>
+            </tr>
+          </tbody></table>
+          <table style="width:100%;border:0px;border-spacing:0px 10px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+
+            <tr>
+              <td style="padding:16px;width:24%;vertical-align:middle">
+                <a href="https://joga.csail.mit.edu/">
+                  <video class="thumb" autoplay muted loop playsinline preload="metadata" poster="images/joga.jpg" aria-label="Joga humanoid soccer skills">
+                    <source src="images/joga.mp4" type="video/mp4">
+                    <img src="images/joga.jpg" alt="Joga humanoid soccer skills" class="thumb">
+                  </video>
+                </a>
+              </td>
+              <td style="padding:8px;width:76%;vertical-align:middle">
+                <a href="https://joga.csail.mit.edu/"><span class="papertitle">Joga: Learning Agile Humanoid Soccer Skills with Active Vision</span></a>
+                <br>
+                <strong>Avinash Narula*</strong>, <a href="https://xkhainguyen.github.io/">Khai Nguyen*</a>, <a href="https://nolie-rolie.github.io/">Nolan Fey*</a>, Venki Parsuram, <a href="https://www.linkedin.com/in/johnmarangola">John Marangola</a>, <a href="https://martinpeticco.com/">Martin Peticco</a>, <a href="https://people.csail.mit.edu/pulkitag/">Pulkit Agrawal</a>
+                <br>
+                <em>Preprint</em>, 2026
+                <br>
+                <em>CoRL 2026 Workshop on Contact-Rich Loco-Manipulation</em>
+                <br>
+                <em>CoRL 2026 Workshop on Roboletics</em>
+                <br>
+                <em>CoRL 2026 Workshop on Sim2Real2Field</em>
+                <p></p>
+                <p>
+                  Full-stack humanoid dribbling, shooting, passing, and receiving with an actuated neck for active vision, aligning the simulator to hardware from minutes of real data.
+                </p>
+                <a href="https://joga.csail.mit.edu/">project page</a>
+                /
+                <a href="https://joga.csail.mit.edu/demo/">interactive</a>
+                /
+                <a href="https://joga.csail.mit.edu/static/joga.pdf">pdf</a>
+              </td>
+            </tr>
+
+          </tbody></table>
+          <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+              <tr>
+              <td style="padding:16px;width:100%;vertical-align:middle">
                 <h2>Experience</h2>
                 <!--
                 <p>
@@ -74,25 +117,32 @@
                  ==================================================================== -->
             <tr>
               <td style="padding:16px;width:24%;vertical-align:middle">
-                <img src="images/humanoid.jpg" alt="Athletic humanoid robot" class="thumb">
+                <video class="thumb" autoplay muted loop playsinline preload="metadata" poster="images/vla.jpg" aria-label="VLA post training">
+                  <source src="images/vla.mp4" type="video/mp4">
+                  <img src="images/vla.jpg" alt="VLA post training" class="thumb">
+                </video>
               </td>
               <td style="padding:8px;width:76%;vertical-align:middle">
-                <span class="papertitle">Athletic Humanoids</span>
+                <span class="papertitle">Robot Learning</span>
                 <br>
                 <a href="https://improbableai.com/">Improbable AI Lab</a>, MIT CSAIL
                 <br>
                 <em>Aug 2025 &ndash; Present</em>
                 <p></p>
-                <p>
-                  Training soccer-playing, athletic humanoids using sim-to-real reinforcement learning.
-                </p>
+                <ul style="margin:0;padding-left:20px;">
+                  <li>Training athletic humanoids using sim-to-real reinforcement learning.</li>
+                  <li>Post-training vision-language-action (VLA) models for robot manipulation.</li>
+                </ul>
               </td>
             </tr>
 
             <tr>
               <td style="padding:16px;width:24%;vertical-align:middle">
                 <a href="data/PoolBot.pdf">
-                  <img src="images/pool%20image.png" alt="PoolBot" class="thumb">
+                  <video class="thumb" autoplay muted loop playsinline preload="metadata" poster="images/poolbot.jpg" aria-label="PoolBot hitting the ball">
+                    <source src="images/poolbot.mp4" type="video/mp4">
+                    <img src="images/poolbot.jpg" alt="PoolBot" class="thumb">
+                  </video>
                 </a>
               </td>
               <td style="padding:8px;width:76%;vertical-align:middle">
@@ -105,15 +155,18 @@
                 <p>
                   A mobile manipulation system that plays pool autonomously, reaching a 55% shot success rate and 2.4&deg; mean angular error over multi-shot sequences.
                 </p>
+                <a href="data/PoolBot.pdf">paper</a>
+                /
+                <a href="https://www.youtube.com/watch?v=Zf_bZmYgHm0&amp;t=1s">video</a>
               </td>
             </tr>
 
             <tr>
               <td style="padding:16px;width:24%;vertical-align:middle">
-                <img src="images/paper_thumbnail.jpg" alt="project image" class="thumb">
+                <img src="images/pina.gif" alt="PINA EGNO rollout" class="thumb">
               </td>
               <td style="padding:8px;width:76%;vertical-align:middle">
-                <span class="papertitle">PINA &mdash; Physics-Informed Modeling</span>
+                <span class="papertitle">PINA &mdash; Physics-Informed Neural networks for Advanced modeling</span>
                 <br>
                 <a href="https://mathlab.sissa.it/">SISSA mathLab</a>, Trieste, Italy
                 <br>
@@ -127,7 +180,10 @@
 
             <tr>
               <td style="padding:16px;width:24%;vertical-align:middle">
-                <img src="images/paper_thumbnail.jpg" alt="project image" class="thumb">
+                <video class="thumb" autoplay muted loop playsinline preload="metadata" poster="images/plan_place.jpg" aria-label="Robot pick and place into shelf">
+                  <source src="images/plan_place.mp4" type="video/mp4">
+                  <img src="images/plan_place.jpg" alt="Robot pick and place" class="thumb">
+                </video>
               </td>
               <td style="padding:8px;width:76%;vertical-align:middle">
                 <span class="papertitle">ML From Scratch</span>
@@ -145,6 +201,7 @@
           </tbody></table>
 
 
+          <!-- NOTES SECTION (commented out)
           <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
               <tr>
               <td style="padding:16px;width:100%;vertical-align:middle">
@@ -174,6 +231,7 @@
             </tr>
 
           </tbody></table>
+          -->
 
 
           <!-- MISCELLANEA SECTION (commented out)
